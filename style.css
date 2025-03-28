@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* header{} */
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background: #101C26FF;
+}
+
+/* .header-container{} */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .header__silka__logo{} */
+
+.logo {
+    width: 97px;
+    height: 67px;
+}
+
+.header__box__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* .header__box__item {} */
+
+.item-silka {
+    color: rgb(186, 185, 185);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.active {
+    color: rgb(255, 255, 255);
+}
+
+.header__box-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* .header__box-item{} */
+
+.item__btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 100px;
+    background: transparent;
+    color: rgb(206, 206, 206);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 13px 32px;
+}
+
+.btn-active {
+    background: rgb(240, 231, 20);
+    border: 1px solid transparent;
+    color: rgb(16, 28, 38);
+}
